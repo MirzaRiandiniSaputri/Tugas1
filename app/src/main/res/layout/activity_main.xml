@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="385dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_x="15dp"
+        android:layout_y="24dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Biodata"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="167dp"
+        android:layout_height="228dp"
+        android:layout_x="14dp"
+        android:layout_y="98dp"
+        android:src="@drawable/image"
+        />
+
+
+    <TextView
+
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_x="191dp"
+        android:layout_y="100dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:text=" Nama"
+        android:textColor="@color/warnafont"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_x="194dp"
+        android:layout_y="129dp"
+        android:text="Mirza Riandini Saputri"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_x="191dp"
+        android:layout_y="162dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:text=" NIM "
+        android:textColor="@color/warnafont"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="193dp"
+        android:layout_y="190dp"
+        android:text="A11.2016.10041"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_x="191dp"
+        android:layout_y="221dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:text=" Address "
+        android:textColor="@color/warnafont"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_x="192dp"
+        android:layout_y="247dp"
+        android:text="Jl Beringin Asri Tengah V"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_x="191dp"
+        android:layout_y="282dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-condensed"
+        android:text=" Hobby "
+        android:textColor="@color/warnafont"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_x="195dp"
+        android:layout_y="309dp"
+        android:text="Menulis"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_x="109dp"
+        android:layout_y="354dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif"
+        android:onClick="callnumber"
+        android:text="PHONE NUMBER"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/address"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="109dp"
+        android:layout_y="471dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif"
+        android:onClick="gosite"
+        android:text="SITE ADDRESS"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="109dp"
+        android:layout_y="412dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif"
+        android:onClick="gotomaps"
+        android:text="HOME LOCATION"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>
